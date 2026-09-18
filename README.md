@@ -94,9 +94,11 @@ EduRisk-AI/
 │   └── student_performance.csv
 │
 ├── models/
-│   └── trained_model.pkl
+│   ├── trained_model.pkl
+│   └── model_results.csv
 │
 ├── src/
+│   ├── __init__.py
 │   ├── config.py
 │   ├── data_loader.py
 │   ├── data_validation.py
@@ -113,12 +115,20 @@ EduRisk-AI/
 │   ├── test_model.py
 │   └── test_prediction.py
 │
-└── docs/
-    ├── architecture.md
-    ├── workflow.md
-    ├── diagrams.md
-    ├── requirements.md
-    └── dataset_and_evaluation.md
+├── docs/
+│   ├── architecture.md
+│   ├── workflow.md
+│   ├── diagrams.md
+│   ├── requirements.md
+│   └── dataset_and_evaluation.md
+│
+├── report/
+│   └── EduRisk_AI_Project_Report.pdf
+│
+└── screenshots/
+    ├── cli_prediction.png
+    ├── model_training.png
+    └── streamlit_dashboard.png
 7. Setup
 
 The project requires Python 3.10 or higher.
