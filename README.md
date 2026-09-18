@@ -36,15 +36,16 @@ Input
 
 To predict the risk level of an individual student, the following values are entered:
 
-Metric	Min	Max
-Attendance %	0	100
-Study hours per day	0	12
-Assignment score %	0	100
-Internal marks %	0	100
-Previous GPA	0	10
-Previous backlogs	0	10
-Sleep hours per day	0	12
-Class participation %	0	100
+| Metric | Min | Max |
+|---|---:|---:|
+| Attendance % | 0 | 100 |
+| Study hours per day | 0 | 12 |
+| Assignment score % | 0 | 100 |
+| Internal marks % | 0 | 100 |
+| Previous GPA | 0 | 10 |
+| Previous backlogs | 0 | 10 |
+| Sleep hours per day | 0 | 12 |
+| Class participation % | 0 | 100 |
 Output
 
 The system provides:
@@ -80,7 +81,9 @@ models/trained_model.pkl
 
 For the current synthetic dataset, Logistic Regression is selected based on the highest weighted F1 score. These results are only illustrative because the dataset is synthetic.
 
-6. Project Structure
+## 6. Project Structure
+
+```text
 EduRisk-AI/
 ├── app.py
 ├── predict_cli.py
@@ -129,6 +132,9 @@ EduRisk-AI/
     ├── cli_prediction.png
     ├── model_training.png
     └── streamlit_dashboard.png
+```
+
+## 7. Setup
 7. Setup
 
 The project requires Python 3.10 or higher.
