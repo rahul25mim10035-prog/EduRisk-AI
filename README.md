@@ -25,13 +25,14 @@ To provide rule-based academic intervention suggestions
 To keep the project modular and easy to test
 
 ## 3. Functional Modules
-Module	Purpose
-Data Loading and Validation	Loads the CSV dataset and checks the required columns and risk labels
-Preprocessing	Handles missing values and standardizes the numerical features
-Model Training and Comparison	Trains three classification models and compares their evaluation results
-Risk Prediction	Takes student information and predicts the academic risk level
-Interpretation and Intervention	Identifies rule-based indicators and provides academic intervention suggestions
-User Interface	Provides a command-line interface and an optional Streamlit dashboard
+| Module | Purpose |
+|---|---|
+| Data Loading and Validation | Loads the CSV dataset and checks the required columns and risk labels |
+| Preprocessing | Handles missing values and standardizes the numerical features |
+| Model Training and Comparison | Trains three classification models and compares their evaluation results |
+| Risk Prediction | Takes student information and predicts the academic risk level |
+| Interpretation and Intervention | Identifies rule-based indicators and provides academic intervention suggestions |
+| User Interface | Provides a command-line interface and an optional Streamlit dashboard |
 
 ## 4. Input / Output
 Input
@@ -200,13 +201,14 @@ The trained model is available
 The prediction output has the expected structure
 
 ## 12. Non-Functional Requirements
-Requirement	Implementation
-Usability	The terminal provides clear prompts and organized output
-Reliability	Input ranges, risk labels, and required dataset columns are validated
-Maintainability	Different parts of the project are separated into dedicated modules
-Performance	Lightweight machine learning models allow quick prediction for an individual student
-Error Handling	Descriptive messages are provided for invalid input and missing files
-Resource Efficiency	The project uses a relatively small dataset and lightweight models and can run locally
+| Requirement | Implementation |
+|---|---|
+| Usability | The terminal provides clear prompts and organized output |
+| Reliability | Input ranges, risk labels, and required dataset columns are validated |
+| Maintainability | Different parts of the project are separated into dedicated modules |
+| Performance | Lightweight machine learning models allow quick prediction for an individual student |
+| Error Handling | Descriptive messages are provided for invalid input and missing files |
+| Resource Efficiency | The project uses a relatively small dataset and lightweight models and can run locally |
 
 ## 13. Documentation
 
