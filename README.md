@@ -233,3 +233,13 @@ This project was developed as part of coursework for an AI/ML module.
 The main focus of the project is to demonstrate the supervised machine learning workflow, starting from data validation and preprocessing and continuing through model training, model comparison, prediction, evaluation, and interpretation.
 
 A synthetic dataset is used so that the complete workflow can be demonstrated without making claims about the model's production-level performance.
+## Screenshots
+
+### CLI Prediction
+![CLI Prediction](screenshots/cli_prediction.png)
+
+### Streamlit Dashboard
+![Streamlit Dashboard](screenshots/streamlit_dashboard.png)
+
+### Model Training and Evaluation
+![Model Training and Evaluation](screenshots/model_training.png)
