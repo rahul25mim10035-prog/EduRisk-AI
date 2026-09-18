@@ -1,8 +1,8 @@
-EduRisk AI
+## EduRisk AI
 
 EduRisk AI is a machine learning prototype that classifies a student's academic risk as Low, Medium, or High using different learning and performance indicators.
 
-1. Overview
+## 1. Overview
 
 EduRisk AI demonstrates the complete machine learning workflow for academic risk prediction. The system takes selected student indicators as input, performs the required preprocessing, applies a trained classification model, and displays the predicted risk level.
 
@@ -10,7 +10,7 @@ The main version of the project can be used through the command line. An optiona
 
 The dataset used in this project is synthetic and is intended only for demonstration and learning purposes. Therefore, the model results should not be considered representative of real-world or production performance.
 
-2. Objectives
+## 2. Objectives
 
 The main objectives of this project are:
 
@@ -23,7 +23,8 @@ To display the probability distribution of the prediction
 To identify rule-based risk indicators
 To provide rule-based academic intervention suggestions
 To keep the project modular and easy to test
-3. Functional Modules
+
+## 3. Functional Modules
 Module	Purpose
 Data Loading and Validation	Loads the CSV dataset and checks the required columns and risk labels
 Preprocessing	Handles missing values and standardizes the numerical features
@@ -31,7 +32,8 @@ Model Training and Comparison	Trains three classification models and compares th
 Risk Prediction	Takes student information and predicts the academic risk level
 Interpretation and Intervention	Identifies rule-based indicators and provides academic intervention suggestions
 User Interface	Provides a command-line interface and an optional Streamlit dashboard
-4. Input / Output
+
+## 4. Input / Output
 Input
 
 To predict the risk level of an individual student, the following values are entered:
@@ -54,7 +56,8 @@ Predicted academic risk (Low, Medium, or High)
 Probability distribution for the risk classes
 Rule-based indicators related to the prediction
 Suggested academic interventions
-5. Machine Learning
+
+## 5. Machine Learning
 
 The target variable used for prediction is risk_level.
 
@@ -134,15 +137,16 @@ EduRisk-AI/
     └── streamlit_dashboard.png
 ```
 
+
 ## 7. Setup
-7. Setup
 
 The project requires Python 3.10 or higher.
 
 Install the required dependencies using:
 
 pip3 install -r requirements.txt
-8. Training
+
+## 8. Training
 
 To train the models and compare their performance using the sample dataset, run:
 
@@ -152,7 +156,8 @@ After training, the following files are generated:
 
 models/trained_model.pkl - the selected trained model
 models/model_results.csv - the model evaluation results
-9. Terminal Interface
+
+## 9. Terminal Interface
 
 The main functionality can be demonstrated directly from the terminal:
 
@@ -167,7 +172,8 @@ Suggested academic interventions
 
 This provides a simple way to demonstrate the input and output flow of the system.
 
-10. Streamlit Dashboard (Optional)
+
+## 10. Streamlit Dashboard (Optional)
 
 An optional graphical interface is included using Streamlit.
 
@@ -179,7 +185,7 @@ The dashboard provides input controls for the student indicators and displays th
 
 The command-line interface remains available as the main way to demonstrate the project functionality.
 
-11. Testing
+## 11. Testing
 
 The project includes validation and test cases to check the main parts of the system.
 
@@ -192,7 +198,8 @@ The tests check that:
 The dataset is loaded and validated correctly
 The trained model is available
 The prediction output has the expected structure
-12. Non-Functional Requirements
+
+## 12. Non-Functional Requirements
 Requirement	Implementation
 Usability	The terminal provides clear prompts and organized output
 Reliability	Input ranges, risk labels, and required dataset columns are validated
@@ -200,7 +207,8 @@ Maintainability	Different parts of the project are separated into dedicated modu
 Performance	Lightweight machine learning models allow quick prediction for an individual student
 Error Handling	Descriptive messages are provided for invalid input and missing files
 Resource Efficiency	The project uses a relatively small dataset and lightweight models and can run locally
-13. Documentation
+
+## 13. Documentation
 
 The supporting project documentation is available in the docs/ folder.
 
@@ -214,7 +222,8 @@ Sequence Diagram
 Functional and non-functional requirements
 Dataset description
 Model selection and evaluation details
-14. Limitations
+
+## 14. Limitations
 
 The project uses a synthetic dataset, so it is intended only as an academic prototype and is not suitable for production use.
 
@@ -222,7 +231,7 @@ The rule-based explanation layer identifies input conditions that are associated
 
 The system should therefore be treated as a learning project and not as a replacement for human judgment in real academic decisions.
 
-15. Future Improvements
+## 15. Future Improvements
 
 Some possible improvements for future versions are:
 
@@ -233,7 +242,8 @@ Add model monitoring and retraining procedures
 Use model-specific explanation methods such as SHAP
 Add authentication and authorization
 Provide more personalized interventions based on student progress
-16. Technology Stack
+
+## 16. Technology Stack
 Python
 Pandas
 NumPy
@@ -242,7 +252,8 @@ Joblib
 Streamlit
 Pytest
 Git
-17. Academic Note
+
+## 17. Academic Note
 
 This project was developed as part of coursework for an AI/ML module.
 
